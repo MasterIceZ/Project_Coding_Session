@@ -271,7 +271,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 693269307}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1255768238}
+        m_TargetAssemblyTypeName: apiHandler, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1255768239}
+        m_TargetAssemblyTypeName: apiHandler2, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &693269307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,8 +343,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1255768237}
+  - component: {fileID: 1255768238}
+  - component: {fileID: 1255768239}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: EventHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,6 +366,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1255768238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255768236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5052a23a895f264db0753d050374120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1255768239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255768236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6d09448d2c9c647b92169012020d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1305559507
 GameObject:
   m_ObjectHideFlags: 0
